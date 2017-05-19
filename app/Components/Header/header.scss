@@ -1,0 +1,33 @@
+@import '../../Styles/Settings.scss';
+
+
+// Comment
+.header {
+   background: #4a4a4a;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   @media all and (min-width: 500px) {
+      background: $red;
+   }
+}
+
+.userSvg {
+   fill: black;
+   width: 30px;
+   height: 30px;
+}
+
+.nav-toggle {
+   color: #fff;
+}
+
+.headerTitle {
+   margin-top: 0;
+   margin-bottom: 0;
+   font-size: 1.44rem;
+}
+
+.notifications {
+   margin-left: auto;
+}
